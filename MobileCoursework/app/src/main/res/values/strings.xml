@@ -1,0 +1,22 @@
+<resources>
+
+    <!--
+     Name                 Callum Dunkley
+     Student ID           S1510033
+     Programme of Study   Computing
+  -->
+
+
+    <string name="app_name">Mobile-Coursework</string>
+    <string name="search_hint">Type few letters of location</string>
+    <string name="title_activity_quake_maps">Map</string>
+    <string name="map">Map</string>
+    <string name="home">Home</string>
+    <string name="north">Most Northerly Earthquake</string>
+    <string name="south">Most Southerly Earthquake</string>
+    <string name="east">Most Easterly Earthquake</string>
+    <string name="west">Most Westerly Earthquake</string>
+    <string name="highestMag">Highest Magnitude</string>
+    <string name="shallowest">Shallowest Earthquake</string>
+    <string name="deepest">Deepest Earthquake</string>
+</resources>

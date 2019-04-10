@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+     Name                 Callum Dunkley
+     Student ID           S1510033
+     Programme of Study   Computing
+  -->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <SearchView
+        android:id="@+id/mySearchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:queryHint="@string/search_hint"
+        />
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/simpleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/simpleTextView2"
+        android:textSize="20sp"
+        android:textColor="#68a0b0"/>
+    <TextView
+        android:id="@+id/simpleTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magnitude"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:textColor="#68a0b0"/>
+</RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/earthquakeList"
+        android:layout_below="@+id/mySearchView"
+    />
+
+
+
+</LinearLayout>

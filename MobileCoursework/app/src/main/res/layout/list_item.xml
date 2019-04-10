@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+     Name                 Callum Dunkley
+     Student ID           S1510033
+     Programme of Study   Computing
+  -->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/quakeLayout">
+
+        <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/magLayout"
+            android:layout_margin="20dp"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/magLayout"
+    android:layout_alignParentRight="true">
+        <TextView
+            android:id="@+id/magnitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+     Name                 Callum Dunkley
+     Student ID           S1510033
+     Programme of Study   Computing
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/layout1">
+        <TextView
+            android:id="@+id/listdata1label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Location: "
+            android:textColor="#000"
+            android:textSize="18dp" />
+    <TextView
+        android:id="@+id/listdata1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textSize="15dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout2"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/layout1">
+    <TextView
+        android:id="@+id/listdata2label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Date: "
+        android:textColor="#000"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/listdata2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textSize="15dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout3"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/layout2"
+        android:layout_toLeftOf="@id/layout4"
+        android:layout_alignParentLeft="true">
+    <TextView
+        android:id="@+id/listdata3label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Magnitude: "
+        android:textColor="#000"
+        android:textSize="18dp" />
+    <TextView
+    android:id="@+id/listdata3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:textColor="#000"
+    android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout4"
+        android:layout_below="@id/layout2"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentRight="true">
+    <TextView
+        android:id="@+id/listdata4label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Depth: "
+        android:textColor="#000"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/listdata4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/listdata4label2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text=" km"
+            android:textColor="#000"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout5"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/layout3">
+    <TextView
+        android:id="@+id/listdata5label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Latitude: "
+        android:textColor="#000"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/listdata5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout6"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@+id/layout3">
+    <TextView
+        android:id="@+id/listdata6label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Longitude: "
+        android:textColor="#000"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/listdata6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textSize="15dp" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/layout5"
+    android:layout_marginTop="30dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp">
+
+    <fragment
+    android:id="@+id/map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+</LinearLayout>
+
+
+
+</RelativeLayout>
